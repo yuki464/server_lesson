@@ -1,0 +1,300 @@
+   45  cd / ~
+   46  pwd
+   47  cd /
+   48  pwd
+   49  cd ~
+   50  pwd
+   51  cd / vagrant
+   52  cd~
+   53  cd usr
+   54  cd~
+   55  cd vagrant
+   56  cd ~
+   57  pwd
+   58  cd vagrant
+   59  cd /vagrant
+   60  cd / vagrant
+   61  pwd
+   62  cd usr
+   63  /
+   64  cd~
+   65  cd /
+   66  cd / vagrant
+   67  pwd
+   68  ls
+   69  cd ~
+   70  pwd
+   71  cd /usr
+   72  cd~
+   73  cd ~
+   74  cd /vagrant
+   75  ls
+   76  pwd
+   77  cd /usr
+   78  ls
+   79  pwd
+   80  cd~
+   81  cd ~
+   82  pwd
+   83  cd /vagrant
+   84  pwc
+   85  pwd
+   86  cd /home/vagrant
+   87  pwd
+   88  ls
+   89  cd /vagrant
+   90  cd /vagrant/usr
+   91  pwd
+   92  cd _
+   93  cd /vagrant
+   94  cd /home
+   95  ls
+   96  cd /vagrant
+   97  ls
+   98  pwd
+   99  cd /vagrant
+  100  cd ~
+  101  cd /home/vagrant
+  102  cd /vagrant
+  103  ls
+  104  mkdir server_lesson && cd server_lesson
+  105  git init
+  106  touch first.txt
+  107  cd /vagrant
+  108  mkdir server_lesson/linux_practice/public
+  109  mkdir -p server_lesson/linux_practice/public
+  110  ls server_lesson server_lesson/linux_practice
+  111  cd ~
+  112  touch server_lesson/linux_practice/public/index.php
+  113  cd /server_lesson
+  114  las
+  115  ls
+  116  cd /server_lesson
+  117  cd / server_lesson
+  118  ls
+  119  cd /server_lesson
+  120  pwd
+  121  cd /vagrant
+  122  pwd
+  123  cd ~
+  124  cd /vagrant
+  125  ls
+  126  cd /server_lesson
+  127  pwd
+  128  cd /vagrant
+  129  ext
+  130  exit
+  131  sudo yum -y update kernel
+  132  exit
+  133  cd /vagrant
+  134  ls
+  135  pdw
+  136  pwd
+  137  mkdir server_lesson && cd server_lesson
+  138  git init
+  139  touch first.txt
+  140  cd /vagrant
+  141  mkdir server_lesson/linux_practice/public
+  142  cd /vagrant
+  143  mkdir -p server_lesson/linux_practice/public
+  144  ls server_lesson server_lesson/linux_practice
+  145  touch server_lesson/linux_practice/public/index.php
+  146  ls server_lesson/linux_practice/public
+  147  cd /vagrant/server_lesson && ls
+  148  cd /vagrant/server_lesson/linux_practice/public
+  149  cp index.php index_bk.php
+  150  ls
+  151  cd /vagrant/server_lesson/linux_practice
+  152  cp -r public tmp
+  153  ls ./ public tmp
+  154  cd /vagrant
+  155  mv server_lesson/linux_practice server_lesson/linux_practice1
+  156  mkdir linux_practice2 linux_practice3
+  157  mv ./linux_practice2 ./server_lesson
+  158  cd /vagrant/server_lesson/linux_practice1/tmp/
+  159  rm *_bk.php
+  160  ls
+  161  cd /vagrant
+  162  rm server_lesson/first.txt
+  163  rm -r linux_practice3
+  164  ls server_lesson
+  165  cd /vagrant/server_lesson
+  166  echo '# サーバレッスン' > README.md
+  167  echo 'Linuxプラクティス' >> README.md
+  168  echo '-----------------' >> README.md
+  169  cat README.md
+  170  server_lesson/
+  171  cd /vagrant/server_lesson
+  172  vi README.md
+  173  cd
+  174  pwd
+  175  cd home
+  176  ls
+  177  cd /serverlesson
+  178  cd /server_lesson
+  179  ls
+  180  cd /vagrant
+  181  pwd
+  182  ls
+  183  cd
+  184  ls
+  185  cd /server_lesson
+  186  ls
+  187  cd _cd /server_lesson
+  188  cd /server_lesson
+  189  cd home/server_lesson
+  190  cd /home/server_lesson
+  191  pwd
+  192  ls
+  193  pwc
+  194  pwd
+  195  cd /vagrant
+  196  ls
+  197  cd 
+  198  cd home
+  199  cd /home
+  200  pwd
+  201  cd /server_lesson
+  202  cd
+  203  ls
+  204  cd /vagrant/server_lesson
+  205  ls
+  206  echo '# サーバレッスン' > README.md
+  207  echo 'Linuxプラクティス' >> README.md
+  208  echo '-----------------' >> README.md
+  209  cat README.md
+  210  cd /inux_practice1 
+  211  pwd
+  212  cd linux_practice1
+  213  las
+  214  ls
+  215  cd public
+  216  ls
+  217  cd -
+  218  cd tmp
+  219  ls
+  220  cd
+  221  cd server_lesson
+  222  rm -i *
+  223  cd
+  224  ls
+  225  rm server_lesson
+  226  ls
+  227  rm server_lesson -i*
+  228  rm server_lesson 
+  229  cd server_lesson
+  230  rm *
+  231  ls -R
+  232  ls
+  233  pwd
+  234  cd
+  235  ls
+  236  cd server_lesson
+  237  rm -rf *
+  238  ls
+  239  cd
+  240  ls
+  241  rm server_lesson -rf *
+  242  ls
+  243  pwd
+  244  cd /vagrant
+  245  ls
+  246  cd
+  247  ls
+  248  cd /vagrant/server_lesson
+  249  cat README.md
+  250  git branch
+  251  git status
+  252  git add server_lesson
+  253  git status
+  254  git commit
+  255  git add README.md
+  256  git commit
+  257  git log
+  258  git branch
+  259  git branch server_lesson
+  260  git brnch
+  261  git branch server_lesson
+  262  git brnch
+  263  git branch
+  264  git checkout server_lesson
+  265  ls
+  266  cd linuz_practice2
+  267  cd linux_practice2
+  268  touch documents
+  269  ls
+  270  rm documents
+  271  ls
+  272  mkdir documents
+  273  ls
+  274  mkdir trash
+  275  ls
+  276  touch .gitignore
+  277  ls
+  278  touch .gitignore
+  279  ls
+  280  cd documents
+  281  ls
+  282  cd -
+  283  touch .gitignore
+  284  ls
+  285  touch aa
+  286  las
+  287  ls
+  288  rm aa
+  289  ls
+  290  touch .gitignore
+  291  ls
+  292  ls -a
+  293  touch gizumo_{1...50}.md
+  294  ls
+  295  rm gizumo_{1...50}.md
+  296  ls
+  297  cd documents
+  298  rm gizumo_{1..50}.md
+  299  ls
+  300  touch gizumo_{1..50}.md
+  301  ls
+  302  cd -
+  303  cd documents
+  304  mv *{20..40}.md/trash
+  305  mv *_{20..40}.md/trash
+  306  mv gizumo_{20..40}.md/trash
+  307  mv gizumo_{20..40}.md trash
+  308  mv gizumo_20.md trash
+  309  mv gizumo_21.md trash
+  310  mv gizumo_22.md trash
+  311  mv gizumo_23.md trash
+  312  mv gizumo_24.md trash
+  313  mv gizumo_25.md trash
+  314  cd 
+  315  cd /vagrant/server_lesson
+  316  ls
+  317  cd linux_practice2
+  318  ls
+  319  cd trash
+  320  ls
+  321  cd -
+  322  cd document
+  323  cd cocuments
+  324  cd documents
+  325  ls
+  326  rm trash
+  327  ls
+  328  touch gizumo_{20..25}.md
+  329  ls
+  330  pwd
+  331  mv *{20..40} /vagrant/server_lesson/linux_practice2/trash
+  332  cd -
+  333  cd trash
+  334  pwd
+  335  cd -
+  336  cd documents
+  337  mv *{20..40}.md /vagrant/server_lesson/linux_practice2/trash
+  338  cd-
+  339  cd -
+  340  cd trash
+  341  ls
+  342  cd -
+  343  vi .gitignore
+  344  history 300
