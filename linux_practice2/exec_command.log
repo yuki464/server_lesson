@@ -1,154 +1,3 @@
-   45  cd / ~
-   46  pwd
-   47  cd /
-   48  pwd
-   49  cd ~
-   50  pwd
-   51  cd / vagrant
-   52  cd~
-   53  cd usr
-   54  cd~
-   55  cd vagrant
-   56  cd ~
-   57  pwd
-   58  cd vagrant
-   59  cd /vagrant
-   60  cd / vagrant
-   61  pwd
-   62  cd usr
-   63  /
-   64  cd~
-   65  cd /
-   66  cd / vagrant
-   67  pwd
-   68  ls
-   69  cd ~
-   70  pwd
-   71  cd /usr
-   72  cd~
-   73  cd ~
-   74  cd /vagrant
-   75  ls
-   76  pwd
-   77  cd /usr
-   78  ls
-   79  pwd
-   80  cd~
-   81  cd ~
-   82  pwd
-   83  cd /vagrant
-   84  pwc
-   85  pwd
-   86  cd /home/vagrant
-   87  pwd
-   88  ls
-   89  cd /vagrant
-   90  cd /vagrant/usr
-   91  pwd
-   92  cd _
-   93  cd /vagrant
-   94  cd /home
-   95  ls
-   96  cd /vagrant
-   97  ls
-   98  pwd
-   99  cd /vagrant
-  100  cd ~
-  101  cd /home/vagrant
-  102  cd /vagrant
-  103  ls
-  104  mkdir server_lesson && cd server_lesson
-  105  git init
-  106  touch first.txt
-  107  cd /vagrant
-  108  mkdir server_lesson/linux_practice/public
-  109  mkdir -p server_lesson/linux_practice/public
-  110  ls server_lesson server_lesson/linux_practice
-  111  cd ~
-  112  touch server_lesson/linux_practice/public/index.php
-  113  cd /server_lesson
-  114  las
-  115  ls
-  116  cd /server_lesson
-  117  cd / server_lesson
-  118  ls
-  119  cd /server_lesson
-  120  pwd
-  121  cd /vagrant
-  122  pwd
-  123  cd ~
-  124  cd /vagrant
-  125  ls
-  126  cd /server_lesson
-  127  pwd
-  128  cd /vagrant
-  129  ext
-  130  exit
-  131  sudo yum -y update kernel
-  132  exit
-  133  cd /vagrant
-  134  ls
-  135  pdw
-  136  pwd
-  137  mkdir server_lesson && cd server_lesson
-  138  git init
-  139  touch first.txt
-  140  cd /vagrant
-  141  mkdir server_lesson/linux_practice/public
-  142  cd /vagrant
-  143  mkdir -p server_lesson/linux_practice/public
-  144  ls server_lesson server_lesson/linux_practice
-  145  touch server_lesson/linux_practice/public/index.php
-  146  ls server_lesson/linux_practice/public
-  147  cd /vagrant/server_lesson && ls
-  148  cd /vagrant/server_lesson/linux_practice/public
-  149  cp index.php index_bk.php
-  150  ls
-  151  cd /vagrant/server_lesson/linux_practice
-  152  cp -r public tmp
-  153  ls ./ public tmp
-  154  cd /vagrant
-  155  mv server_lesson/linux_practice server_lesson/linux_practice1
-  156  mkdir linux_practice2 linux_practice3
-  157  mv ./linux_practice2 ./server_lesson
-  158  cd /vagrant/server_lesson/linux_practice1/tmp/
-  159  rm *_bk.php
-  160  ls
-  161  cd /vagrant
-  162  rm server_lesson/first.txt
-  163  rm -r linux_practice3
-  164  ls server_lesson
-  165  cd /vagrant/server_lesson
-  166  echo '# サーバレッスン' > README.md
-  167  echo 'Linuxプラクティス' >> README.md
-  168  echo '-----------------' >> README.md
-  169  cat README.md
-  170  server_lesson/
-  171  cd /vagrant/server_lesson
-  172  vi README.md
-  173  cd
-  174  pwd
-  175  cd home
-  176  ls
-  177  cd /serverlesson
-  178  cd /server_lesson
-  179  ls
-  180  cd /vagrant
-  181  pwd
-  182  ls
-  183  cd
-  184  ls
-  185  cd /server_lesson
-  186  ls
-  187  cd _cd /server_lesson
-  188  cd /server_lesson
-  189  cd home/server_lesson
-  190  cd /home/server_lesson
-  191  pwd
-  192  ls
-  193  pwc
-  194  pwd
-  195  cd /vagrant
   196  ls
   197  cd 
   198  cd home
@@ -298,3 +147,154 @@
   342  cd -
   343  vi .gitignore
   344  history 300
+  345  exec_command.log
+  346  touch exec_command.log
+  347  ls
+  348  vi exec_command.log
+  349  git stutus
+  350  git status
+  351  git add ../linux_practice1/
+  352  git add ./
+  353  git branch master
+  354  git branch 
+  355  git branch master
+  356  git branch 
+  357  git diff
+  358  git status
+  359  git add linux_practice2
+  360* git add  ../linux_practice1/public/index.ph
+  361  git add
+  362  git add ../linux_practice1/public/index_bk.php
+  363  git add../linux_practice1/tmp/index.php
+  364  git add ../linux_practice1/tmp/index.php
+  365  git add
+  366* git add .gitignor
+  367  git add exec_command.log
+  368  git status
+  369  git add exec_command.log
+  370  git status
+  371  git add ../linux_practice2
+  372  git commit -m"試しにコミット"
+  373  git push origin　server_lesson
+  374  git push origin server_lesson
+  375  git status
+  376  git push
+  377  git init
+  378  git push
+  379  git init server_lesson
+  380  git push
+  381  git init
+  382  git status
+  383  git add .gitignore
+  384  git add documents/
+  385  git add trash/
+  386  git status
+  387  git add exec_command.log
+  388  git commit -m"残りのファイルのコミット"
+  389  git status
+  390  git push
+  391  git push git remote -v
+  392  git remote -v
+  393  git init
+  394  git brnch
+  395  git branch
+  396  git stutas
+  397  git status
+  398  git push 
+  399  git push /vagrant/server_lesson/linux_practice2/.git/
+  400  git --version
+  401  ls -i
+  402  ls -l
+  403  git config --global user.name "yuki464"
+  404  git config --global user.email "ore04110214@gmail.com"
+  405  git config --global user.email "orenomusuko555@gmail.com"
+  406  git init
+  407  git push
+  408  git push git status
+  409  git status
+  410  git branch
+  411  ls
+  412  ls se
+  413  ls server_lesson/
+  414  ls server_lesson
+  415  ls server_lesson/
+  416  rm server_lesson
+  417  rm server_lesson/ -r
+  418  ls
+  419  git status
+  420  git branch
+  421  git log
+  422  cd -
+  423  cd ~
+  424  ls
+  425  pwd
+  426  cd vagrant
+  427  ls
+  428  pwd
+  429  cd /vagrant
+  430  ls
+  431  pwd
+  432  cd server_lesson/
+  433  git status
+  434  git remote add origin https://github.com/yuki464/server_lesson.git
+  435  git branch -M main
+  436  git push -u origin main
+  437  ls
+  438  ls linux_practice2
+  439  ls
+  440  cd linux_practice2
+  441  ls
+  442  cd documents/
+  443  ls
+  444  mv gizumo_{1..50} gizumo{1..50}
+  445  ls
+  446  mv gizumo_{1..19} gizumo{1..19}
+  447* 
+  448  mv gizumo_1 gizumo1
+  449  mv gizumo_1/ gizumo1/
+  450  mv gizumo_{1..19}.md gizumo1{1..19}.md
+  451  ls
+  452  mv gizumo_{1..19}.md gizumo{1..19}.md
+  453  mv gizumo_1.md gizumo1.md
+  454  mv gizumo_2.md gizumo2.md
+  455  ls
+  456  mv gizumo_{3..19}.md gizumo{3..19}.md
+  457  mv gizumo_{3..10}.md gizumo{3..10}.md
+  458  mv -T gizumo_{3..10}.md gizumo{3..10}.md
+  459  mv gizumo_{3..19}.md gizumo{3..19}.md
+  460  mv gizumo_3.md gizumo3.md
+  461  mv gizumo_4.md gizumo4.md
+  462  rename gizumo_ gizumo ./gizumo_*
+  463  ls
+  464  cd -
+  465  ls
+  466  cd trash/
+  467  ls
+  468  rename gizumo_ gizumo ./gizumo_*
+  469  ls
+  470  cd-
+  471  cd -
+  472  ls
+  473  vi .gitignore  
+  474  history 300
+  475  cat README.md
+  476  cd-
+  477  cd -
+  478  cd /
+  479  cd /vagrant
+  480  ls
+  481  cd server_lesson/
+  482  ls
+  483  cat README.md
+  484  vi README.md
+  485  vi .gitignore
+  486  ls
+  487  cd linux_practice2
+  488  ls
+  489  vi .gitignore
+  490  cd -
+  491  git status
+  492  cd linux_practice2
+  493  ls
+  494  vi exec_command.log 
+  495  history 300
