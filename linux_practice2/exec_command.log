@@ -1,300 +1,300 @@
-  196  ls
-  197  cd 
-  198  cd home
-  199  cd /home
-  200  pwd
-  201  cd /server_lesson
-  202  cd
-  203  ls
-  204  cd /vagrant/server_lesson
-  205  ls
-  206  echo '# サーバレッスン' > README.md
-  207  echo 'Linuxプラクティス' >> README.md
-  208  echo '-----------------' >> README.md
-  209  cat README.md
-  210  cd /inux_practice1 
-  211  pwd
-  212  cd linux_practice1
-  213  las
-  214  ls
-  215  cd public
-  216  ls
-  217  cd -
-  218  cd tmp
-  219  ls
-  220  cd
-  221  cd server_lesson
-  222  rm -i *
-  223  cd
-  224  ls
-  225  rm server_lesson
-  226  ls
-  227  rm server_lesson -i*
-  228  rm server_lesson 
-  229  cd server_lesson
-  230  rm *
-  231  ls -R
-  232  ls
-  233  pwd
-  234  cd
-  235  ls
-  236  cd server_lesson
-  237  rm -rf *
-  238  ls
-  239  cd
-  240  ls
-  241  rm server_lesson -rf *
-  242  ls
-  243  pwd
-  244  cd /vagrant
-  245  ls
-  246  cd
-  247  ls
-  248  cd /vagrant/server_lesson
-  249  cat README.md
-  250  git branch
-  251  git status
-  252  git add server_lesson
-  253  git status
-  254  git commit
-  255  git add README.md
-  256  git commit
-  257  git log
-  258  git branch
-  259  git branch server_lesson
-  260  git brnch
-  261  git branch server_lesson
-  262  git brnch
-  263  git branch
-  264  git checkout server_lesson
-  265  ls
-  266  cd linuz_practice2
-  267  cd linux_practice2
-  268  touch documents
-  269  ls
-  270  rm documents
-  271  ls
-  272  mkdir documents
-  273  ls
-  274  mkdir trash
-  275  ls
-  276  touch .gitignore
-  277  ls
-  278  touch .gitignore
-  279  ls
-  280  cd documents
-  281  ls
-  282  cd -
-  283  touch .gitignore
-  284  ls
-  285  touch aa
-  286  las
-  287  ls
-  288  rm aa
-  289  ls
-  290  touch .gitignore
-  291  ls
-  292  ls -a
-  293  touch gizumo_{1...50}.md
-  294  ls
-  295  rm gizumo_{1...50}.md
-  296  ls
-  297  cd documents
-  298  rm gizumo_{1..50}.md
-  299  ls
-  300  touch gizumo_{1..50}.md
-  301  ls
-  302  cd -
-  303  cd documents
-  304  mv *{20..40}.md/trash
-  305  mv *_{20..40}.md/trash
-  306  mv gizumo_{20..40}.md/trash
-  307  mv gizumo_{20..40}.md trash
-  308  mv gizumo_20.md trash
-  309  mv gizumo_21.md trash
-  310  mv gizumo_22.md trash
-  311  mv gizumo_23.md trash
-  312  mv gizumo_24.md trash
-  313  mv gizumo_25.md trash
-  314  cd 
-  315  cd /vagrant/server_lesson
-  316  ls
-  317  cd linux_practice2
-  318  ls
-  319  cd trash
-  320  ls
-  321  cd -
-  322  cd document
-  323  cd cocuments
-  324  cd documents
-  325  ls
-  326  rm trash
-  327  ls
-  328  touch gizumo_{20..25}.md
-  329  ls
-  330  pwd
-  331  mv *{20..40} /vagrant/server_lesson/linux_practice2/trash
-  332  cd -
-  333  cd trash
-  334  pwd
-  335  cd -
-  336  cd documents
-  337  mv *{20..40}.md /vagrant/server_lesson/linux_practice2/trash
-  338  cd-
-  339  cd -
-  340  cd trash
-  341  ls
-  342  cd -
-  343  vi .gitignore
-  344  history 300
-  345  exec_command.log
-  346  touch exec_command.log
-  347  ls
-  348  vi exec_command.log
-  349  git stutus
-  350  git status
-  351  git add ../linux_practice1/
-  352  git add ./
-  353  git branch master
-  354  git branch 
-  355  git branch master
-  356  git branch 
-  357  git diff
-  358  git status
-  359  git add linux_practice2
-  360* git add  ../linux_practice1/public/index.ph
-  361  git add
-  362  git add ../linux_practice1/public/index_bk.php
-  363  git add../linux_practice1/tmp/index.php
-  364  git add ../linux_practice1/tmp/index.php
-  365  git add
-  366* git add .gitignor
-  367  git add exec_command.log
-  368  git status
-  369  git add exec_command.log
-  370  git status
-  371  git add ../linux_practice2
-  372  git commit -m"試しにコミット"
-  373  git push origin　server_lesson
-  374  git push origin server_lesson
-  375  git status
-  376  git push
-  377  git init
-  378  git push
-  379  git init server_lesson
-  380  git push
-  381  git init
-  382  git status
-  383  git add .gitignore
-  384  git add documents/
-  385  git add trash/
-  386  git status
-  387  git add exec_command.log
-  388  git commit -m"残りのファイルのコミット"
-  389  git status
-  390  git push
-  391  git push git remote -v
-  392  git remote -v
-  393  git init
-  394  git brnch
-  395  git branch
-  396  git stutas
-  397  git status
-  398  git push 
-  399  git push /vagrant/server_lesson/linux_practice2/.git/
-  400  git --version
-  401  ls -i
-  402  ls -l
-  403  git config --global user.name "yuki464"
-  404  git config --global user.email "ore04110214@gmail.com"
-  405  git config --global user.email "orenomusuko555@gmail.com"
-  406  git init
-  407  git push
-  408  git push git status
-  409  git status
-  410  git branch
-  411  ls
-  412  ls se
-  413  ls server_lesson/
-  414  ls server_lesson
-  415  ls server_lesson/
-  416  rm server_lesson
-  417  rm server_lesson/ -r
-  418  ls
-  419  git status
-  420  git branch
-  421  git log
-  422  cd -
-  423  cd ~
-  424  ls
-  425  pwd
-  426  cd vagrant
-  427  ls
-  428  pwd
-  429  cd /vagrant
-  430  ls
-  431  pwd
-  432  cd server_lesson/
-  433  git status
-  434  git remote add origin https://github.com/yuki464/server_lesson.git
-  435  git branch -M main
-  436  git push -u origin main
-  437  ls
-  438  ls linux_practice2
-  439  ls
-  440  cd linux_practice2
-  441  ls
-  442  cd documents/
-  443  ls
-  444  mv gizumo_{1..50} gizumo{1..50}
-  445  ls
-  446  mv gizumo_{1..19} gizumo{1..19}
-  447* 
-  448  mv gizumo_1 gizumo1
-  449  mv gizumo_1/ gizumo1/
-  450  mv gizumo_{1..19}.md gizumo1{1..19}.md
-  451  ls
-  452  mv gizumo_{1..19}.md gizumo{1..19}.md
-  453  mv gizumo_1.md gizumo1.md
-  454  mv gizumo_2.md gizumo2.md
-  455  ls
-  456  mv gizumo_{3..19}.md gizumo{3..19}.md
-  457  mv gizumo_{3..10}.md gizumo{3..10}.md
-  458  mv -T gizumo_{3..10}.md gizumo{3..10}.md
-  459  mv gizumo_{3..19}.md gizumo{3..19}.md
-  460  mv gizumo_3.md gizumo3.md
-  461  mv gizumo_4.md gizumo4.md
-  462  rename gizumo_ gizumo ./gizumo_*
-  463  ls
-  464  cd -
-  465  ls
-  466  cd trash/
-  467  ls
-  468  rename gizumo_ gizumo ./gizumo_*
-  469  ls
-  470  cd-
-  471  cd -
-  472  ls
-  473  vi .gitignore  
-  474  history 300
-  475  cat README.md
-  476  cd-
-  477  cd -
-  478  cd /
-  479  cd /vagrant
-  480  ls
-  481  cd server_lesson/
-  482  ls
-  483  cat README.md
-  484  vi README.md
-  485  vi .gitignore
-  486  ls
-  487  cd linux_practice2
-  488  ls
-  489  vi .gitignore
-  490  cd -
-  491  git status
-  492  cd linux_practice2
-  493  ls
-  494  vi exec_command.log 
-  495  history 300
+ 593    281  ls
+  594    282  cd -
+  595    283  touch .gitignore
+  596    284  ls
+  597    285  touch aa
+  598    286  las
+  599    287  ls
+  600    288  rm aa
+  601    289  ls
+  602    290  touch .gitignore
+  603    291  ls
+  604    292  ls -a
+  605    293  touch gizumo_{1...50}.md
+  606    294  ls
+  607    295  rm gizumo_{1...50}.md
+  608    296  ls
+  609    297  cd documents
+  610    298  rm gizumo_{1..50}.md
+  611    299  ls
+  612    300  touch gizumo_{1..50}.md
+  613    301  ls
+  614    302  cd -
+  615    303  cd documents
+  616    304  mv *{20..40}.md/trash
+  617    305  mv *_{20..40}.md/trash
+  618    306  mv gizumo_{20..40}.md/trash
+  619    307  mv gizumo_{20..40}.md trash
+  620    308  mv gizumo_20.md trash
+  621    309  mv gizumo_21.md trash
+  622    310  mv gizumo_22.md trash
+  623    311  mv gizumo_23.md trash
+  624    312  mv gizumo_24.md trash
+  625    313  mv gizumo_25.md trash
+  626    314  cd 
+  627    315  cd /vagrant/server_lesson
+  628    316  ls
+  629    317  cd linux_practice2
+  630    318  ls
+  631    319  cd trash
+  632    320  ls
+  633    321  cd -
+  634    322  cd document
+  635    323  cd cocuments
+  636    324  cd documents
+  637    325  ls
+  638    326  rm trash
+  639    327  ls
+  640    328  touch gizumo_{20..25}.md
+  641    329  ls
+  642    330  pwd
+  643    331  mv *{20..40} /vagrant/server_lesson/linux_practice2/trash
+  644    332  cd -
+  645    333  cd trash
+  646    334  pwd
+  647    335  cd -
+  648    336  cd documents
+  649    337  mv *{20..40}.md /vagrant/server_lesson/linux_practice2/trash
+  650    338  cd-
+  651    339  cd -
+  652    340  cd trash
+  653    341  ls
+  654    342  cd -
+  655    343  vi .gitignore
+  656    344  history 300
+  657    345  exec_command.log
+  658    346  touch exec_command.log
+  659    347  ls
+  660    348  vi exec_command.log
+  661    349  git stutus
+  662    350  git status
+  663    351  git add ../linux_practice1/
+  664    352  git add ./
+  665    353  git branch master
+  666    354  git branch 
+  667    355  git branch master
+  668    356  git branch 
+  669    357  git diff
+  670    358  git status
+  671    359  git add linux_practice2
+  672    360* git add  ../linux_practice1/public/index.ph
+  673    361  git add
+  674    362  git add ../linux_practice1/public/index_bk.php
+  675    363  git add../linux_practice1/tmp/index.php
+  676    364  git add ../linux_practice1/tmp/index.php
+  677    365  git add
+  678    366* git add .gitignor
+  679    367  git add exec_command.log
+  680    368  git status
+  681    369  git add exec_command.log
+  682    370  git status
+  683    371  git add ../linux_practice2
+  684    372  git commit -m"試しにコミット"
+  685    373  git push origin　server_lesson
+  686    374  git push origin server_lesson
+  687    375  git status
+  688    376  git push
+  689    377  git init
+  690    378  git push
+  691    379  git init server_lesson
+  692    380  git push
+  693    381  git init
+  694    382  git status
+  695    383  git add .gitignore
+  696    384  git add documents/
+  697    385  git add trash/
+  698    386  git status
+  699    387  git add exec_command.log
+  700    388  git commit -m"残りのファイルのコミット"
+  701    389  git status
+  702    390  git push
+  703    391  git push git remote -v
+  704    392  git remote -v
+  705    393  git init
+  706    394  git brnch
+  707    395  git branch
+  708    396  git stutas
+  709    397  git status
+  710    398  git push 
+  711    399  git push /vagrant/server_lesson/linux_practice2/.git/
+  712    400  git --version
+  713    401  ls -i
+  714    402  ls -l
+  715    403  git config --global user.name "yuki464"
+  716    404  git config --global user.email "ore04110214@gmail.com"
+  717    405  git config --global user.email "orenomusuko555@gmail.com"
+  718    406  git init
+  719    407  git push
+  720    408  git push git status
+  721    409  git status
+  722    410  git branch
+  723    411  ls
+  724    412  ls se
+  725    413  ls server_lesson/
+  726    414  ls server_lesson
+  727    415  ls server_lesson/
+  728    416  rm server_lesson
+  729    417  rm server_lesson/ -r
+  730    418  ls
+  731    419  git status
+  732    420  git branch
+  733    421  git log
+  734    422  cd -
+  735    423  cd ~
+  736    424  ls
+  737    425  pwd
+  738    426  cd vagrant
+  739    427  ls
+  740    428  pwd
+  741    429  cd /vagrant
+  742    430  ls
+  743    431  pwd
+  744    432  cd server_lesson/
+  745    433  git status
+  746    434  git remote add origin https://github.com/yuki464/server_lesson.git
+  747    435  git branch -M main
+  748    436  git push -u origin main
+  749    437  ls
+  750    438  ls linux_practice2
+  751    439  ls
+  752    440  cd linux_practice2
+  753    441  ls
+  754    442  cd documents/
+  755    443  ls
+  756    444  mv gizumo_{1..50} gizumo{1..50}
+  757    445  ls
+  758    446  mv gizumo_{1..19} gizumo{1..19}
+  759    447* 
+  760    448  mv gizumo_1 gizumo1
+  761    449  mv gizumo_1/ gizumo1/
+  762    450  mv gizumo_{1..19}.md gizumo1{1..19}.md
+  763    451  ls
+  764    452  mv gizumo_{1..19}.md gizumo{1..19}.md
+  765    453  mv gizumo_1.md gizumo1.md
+  766    454  mv gizumo_2.md gizumo2.md
+  767    455  ls
+  768    456  mv gizumo_{3..19}.md gizumo{3..19}.md
+  769    457  mv gizumo_{3..10}.md gizumo{3..10}.md
+  770    458  mv -T gizumo_{3..10}.md gizumo{3..10}.md
+  771    459  mv gizumo_{3..19}.md gizumo{3..19}.md
+  772    460  mv gizumo_3.md gizumo3.md
+  773    461  mv gizumo_4.md gizumo4.md
+  774    462  rename gizumo_ gizumo ./gizumo_*
+  775    463  ls
+  776    464  cd -
+  777    465  ls
+  778    466  cd trash/
+  779    467  ls
+  780    468  rename gizumo_ gizumo ./gizumo_*
+  781    469  ls
+  782    470  cd-
+  783    471  cd -
+  784    472  ls
+  785    473  vi .gitignore  
+  786    474  history 300
+  787    475  cat README.md
+  788    476  cd-
+  789    477  cd -
+  790    478  cd /
+  791    479  cd /vagrant
+  792    480  ls
+  793    481  cd server_lesson/
+  794    482  ls
+  795    483  cat README.md
+  796    484  vi README.md
+  797    485  vi .gitignore
+  798    486  ls
+  799    487  cd linux_practice2
+  800    488  ls
+  801    489  vi .gitignore
+  802    490  cd -
+  803    491  git status
+  804    492  cd linux_practice2
+  805    493  ls
+  806    494  vi exec_command.log 
+  807    495  history 300
+  808    496  vi exec_command.log 
+  809    497  cd -
+  810    498  git status
+  811    499  git add README.md
+  812    500  git add modified:   linux_practice2/.gitignore
+  813    501  git add linux_practice2/.gitignore
+  814    502  git add modified:   linux_practice2/.gitignore
+  815    503  git add linux_practice2/documents/
+  816    504  git add linux_practice2/documents
+  817    505  git status
+  818    506  git add
+  819    507  git add README.md
+  820    508  git status
+  821    509  git add linux_practice2/exec_command.log
+  822    510  git add linux_practice2/trash
+  823    511  cd linux_practice2
+  824    512  ls
+  825    513* git add linux_practice2trash
+  826    514  git status
+  827    515  git add documents
+  828    516  git add documents/
+  829    517  git commit -m"２回目レビュー用"
+  830    518  git push linux_practice
+  831    519  cd -
+  832    520  git push server_lesson
+  833    521  git status
+  834    522  git commit -m "２回目レビュー用"
+  835    523  git status
+  836    524  git add linux_practice2/documents/
+  837    525  git push server_lesson
+  838    526  git status
+  839    527  git add linux_practice2/documents/
+  840    528  git add deleted
+  841    529  git rm $(git ls-files --deleted)
+  842    530  git status
+  843    531  git commit -m "削除したファイルのステージリング分"
+  844    532  git push server_lesson
+  845    533  git status
+  846    534  git push 
+  847    535  cd
+  848    536  cd /vagrant
+  849    537  ls
+  850    538  cd server_lesson/
+  851    539  ls 
+  852    540  cd linux_practice
+  853    541  cd linux_practice2
+  854    542  cd documents/
+  855    543  ls
+  856    544  rename gizumo[1-9].md gizumo[01-09].md 
+  857    545  ls
+  858    546  rename gizumo1 gizumo01
+  859    547  ls
+  860    548  rename gizumo1.md gizumo01.md
+  861    549  rename gizumo1.md gizumo01.md gizumo1.md
+  862    550  ls
+  863    551  rename gizumo{2..9}.md gizumo{02..9}.md gizumo{2..9}.md
+  864    552  ls
+  865    553  rename gizumo{2..9}.md gizumo{02..9}.md gizumo{2..9}.md
+  866    554  rename gizumo{2..9}.md gizumo{02..9}.md gizumo*.md
+  867    555  ls
+  868    556  rename gizumo{2..9}.md gizumo{02..09}.md gizumo*.md
+  869    557  ls
+  870    558  rename gizumo[2-9].md gizumo[02-09].md gizumo*.md
+  871    559  ls
+  872    560  rename {2..9} {02..09} /documents
+  873    561  rename {2..9} {02..09} gizumo*.md
+  874    562  rename -n 's/(\d+)_(\d+)/sprintf("%03d_%03d", $1, $2)/e' *.txt
+  875    563  rename -n 's/(\d+)_(\d+)/sprintf("%03d_%03d", $1, $2)/e' gizumo*.md
+  876    564  history 300
+  877    565  rename gizumo(2-9) gizumo(02-09) ./gizumo*.md
+  878    566  rename gizumo[2-9] gizumo[02-09] ./gizumo*.md
+  879    567  ls
+  880    568  rename gizumo'' gizumo0 ./gizumo?.md
+  881    569  ls
+  882    570  cd -
+  883    571  ls
+  884    572  vi .gitignore 
+  885    573  git status
+  886    574  git add .gitignore
+  887    575  git rm $(git ls-files --deleted)
+  888    576  git add ./documents
+  889    577  git status
+  890    578  git add trash/
+  891    579  history 300
+
