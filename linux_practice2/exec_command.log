@@ -780,4 +780,305 @@
  1104  git branch
  1105  history 300
  1106  history 500
+------------------------------------------------------
+多すぎてわからないので分けました20210729
+ 862    550  ls
+  863    551  rename gizumo{2..9}.md gizumo{02..9}.md gizumo{2..9}.md
+  864    552  ls
+  865    553  rename gizumo{2..9}.md gizumo{02..9}.md gizumo{2..9}.md
+  866    554  rename gizumo{2..9}.md gizumo{02..9}.md gizumo*.md
+  867    555  ls
+  868    556  rename gizumo{2..9}.md gizumo{02..09}.md gizumo*.md
+  869    557  ls
+  870    558  rename gizumo[2-9].md gizumo[02-09].md gizumo*.md
+  871    559  ls
+  872    560  rename {2..9} {02..09} /documents
+  873    561  rename {2..9} {02..09} gizumo*.md
+  874    562  rename -n 's/(\d+)_(\d+)/sprintf("%03d_%03d", $1, $2)/e' *.txt
+  875    563  rename -n 's/(\d+)_(\d+)/sprintf("%03d_%03d", $1, $2)/e' gizumo*.md
+  876    564  history 300
+  877    565  rename gizumo(2-9) gizumo(02-09) ./gizumo*.md
+  878    566  rename gizumo[2-9] gizumo[02-09] ./gizumo*.md
+  879    567  ls
+  880    568  rename gizumo'' gizumo0 ./gizumo?.md
+  881    569  ls
+  882    570  cd -
+  883    571  ls
+  884    572  vi .gitignore 
+  885    573  git status
+  886    574  git add .gitignore
+  887    575  git rm $(git ls-files --deleted)
+  888    576  git add ./documents
+  889    577  git status
+  890    578  git add trash/
+  891    579  history 300
+  892  history 300
+  893  las
+  894  ls
+  895  vi exec_command.log 
+  896  git add exec_command.log 
+  897  git commit -m "三度目の正直"
+  898  git stu
+  899  git stutas
+  900  git status
+  901  git push server_lesson
+  902  git push origin master
+  903  git push server_lesson
+  904  git status
+  905  cd server_lesson
+  906  cd /server_lesson
+  907  cd -
+  908  cd ^
+  909  cd -
+  910  cd ~
+  911  cd /vagrant
+  912  ls
+  913  cd server_lesson/
+  914  git status
+  915  git add linux_practice2/.gitignore
+  916  git add linux_practice2/documents/
+  917  git add linux_practice2/documents
+  918  git add linux_practice2/documents/.
+  919  git rm $(git ls-files --deleted)
+  920  git commit -m "三度目の正直"
+  921  git push server_lesson
+  922  git status
+  923  git add linux_practice2/exec_command.log
+  924  git commit -m"三度目の正直"
+  925  git status
+  926  git push server_lesson
+  927  git status
+  928  git push server_lesson
+  929  git remote -v
+  930  git push https://github.com/yuki464/server_lesson.git
+  931  git rm -r --cached .
+  932  git add .
+  933  git commit -m ".gitignore反映されないで検索してみて試した。"
+  934  gir pus server_lesson
+  935  gir puss server_lesson
+  936  gir push server_lesson
+  937  git push server_lesson
+  938  git push https://github.com/yuki464/server_lesson.git
+  939  ls
+  940  cd linux_practice2
+  941  ls
+  942  documents
+  943  cd documents
+  944  ls
+  945  cd -
+  946  git status
+  947  vi .gitgnore
+  948  vi .gitignore  
+  949  git add .gitignore  
+  950  git commit -m ".gitignoreが適応されたかテスト"
+  951  git push https://github.com/yuki464/server_lesson.git
+  952  git status
+  953  ls
+  954  cd-
+  955  cd ^
+  956  cd -
+  957  pwd
+  958  cd /vagrant/server_lesson
+  959  git status
+  960  git add linux_practice2
+  961  git commit -m"４度目の正直"
+  962  git remote -v
+  963  git push https://github.com/yuki464/server_lesson.git
+  964  ls
+  965  cd linux_practice2
+  966  ls
+  967  cd documents
+  968  ls
+  969  cd -
+  970  cd trash/
+  971  ls
+  972  cd 
+  973  cd /vagrant/server_lesson
+  974  git status
+  975  git push server_lesso
+  976  git push server_lesson
+  977  git remote -v
+  978  git push https://github.com/yuki464/server_lesson.git
+  979  git push origin master
+  980  git status
+  981  git remote
+  982  git remote show origin
+  983  git push
+  984  cd linux_practice2
+  985  ls
+  986  history 
+  987  history 300
+  988  vi exec_command.log 
+  989  cd-
+  990  cd -
+  991  git status
+  992  git add linux_practice2
+  993  git commit -m "ギットハブがおかしくなった為コミット"
+  994  git add linux_practice2
+  995  git commit -m "ギットハブがおかしくなった為コミット"
+  996  cd linux_practice2
+  997  ls
+  998  git status
+  999  git add exec_command.log]
+ 1000  git add exec_command.log
+ 1001  git add
+ 1002  git status
+ 1003  git commit -m "ギットハブがおかしくなってしまった為コミット"
+ 1004  cd -
+ 1005  git status
+ 1006  git add linux_practice2
+ 1007  git commit -m "ギットハブがおかしくなってしまった為コミット"
+ 1008  git push
+ 1009  git status
+ 1010  cd linux_practice2
+ 1011  git status
+ 1012  git rm -r --cached .
+ 1013  git status
+ 1014  git add .
+ 1015  git status
+ 1016  git commit -m ".gitignore update"
+ 1017  pwd
+ 1018  cd /vagrant/server_lesson
+ 1019  git status
+ 1020  git rm -r --cached .
+ 1021  git status
+ 1022  git add .
+ 1023  git status
+ 1024  git commit -m ".gitignore update"
+ 1025  cd linux_practice2
+ 1026  ls
+ 1027  cd documents/
+ 1028  ls
+ 1029  cd -
+ 1030  git push
+ 1031  yuki464
+ 1032  bokki081
+ 1033  git push
+ 1034  pwd
+ 1035  cd /vagrant/server_lesson
+ 1036  git push
+ 1037  git log
+ 1038  git reset --hard [b17a87a83c78247ccef890f240faa480510787cb]
+ 1039  git status
+ 1040  git ls-files
+ 1041  git status ignored
+ 1042  git reset @~ linux_practice2
+ 1043  git ls-files --others --ignored --exclude-standard
+ 1044  git ls-files
+ 1045  git reset @~ linux_practice2/documents/.
+ 1046  git diff
+ 1047  git add linux_practice2/documents/.
+ 1048  git add linux_practice2/documents
+ 1049  git add ./linux_practice2/documents
+ 1050  git status
+ 1051  git pull
+ 1052  cd linux_practice2
+ 1053  ls
+ 1054  cd -
+ 1055  git checkout linux_practice2/documents
+ 1056  git checkout linux_practice2
+ 1057  git checkout linux_practice2/.gitignore
+ 1058  git checkout trash/gizumo20.md
+ 1059  git checkout linux_practice2trash/gizumo20.md
+ 1060  git reset
+ 1061  git reset .
+ 1062  git status
+ 1063  git reset HEAD linux_practice2/.
+ 1064  git reset linux_practice2/.
+ 1065  git checkout HEAD linux_practice2/.
+ 1066  git reset --hard HEAD~
+ 1067  git status
+ 1068  git push
+ 1069  git status
+ 1070  git pull
+ 1071  git push
+ 1072  git reset --hard HEAD~
+ 1073  git pull
+ 1074  git reset --hard HEAD~
+ 1075  git push
+ 1076  git git reset HEAD~
+ 1077  git reflog 
+ 1078  git status
+ 1079  git add linux_practice2
+ 1080  git status
+ 1081  git reset --hard HEAD~
+ 1082  git push -f origin master
+ 1083  history 300
+ 1084  history 300 | grep git rm
+ 1085  history 300 | grep 'git rm'
+ 1086  ls
+ 1087  cd linux_practice2
+ 1088  ls
+ 1089  ls /la
+ 1090  ls -la
+ 1091  rm -r .git
+ 1092  ls -la
+ 1093  rm -rf .git
+ 1094  cd-
+ 1095  cd -
+ 1096  git status
+ 1097  cd -
+ 1098  touch test.txt
+ 1099  git status
+ 1100  ls
+ 1101  rm test.txt 
+ 1102  ls
+ 1103  git push -f origin/main
+ 1104  git branch
+ 1105  history 300
+ 1106  history 500
+ 1107  vi exec_command.log
+ 1108  ls
+ 1109  vi .gitignore
+ 1110  git status 
+ 1111  git add .gitignore
+ 1112  git add exec_command.log
+ 1113  git commit -m "イグノアの更新"
+ 1114  git push
+ 1115  vi .gitignore
+ 1116  git ls-files
+ 1117  vi .gitignore
+ 1118  git ls-files
+ 1119  vi .gitignore
+ 1120  git ls-files
+ 1121  vi .gitignore
+ 1122  git ls-files
+ 1123  vi .gitignore
+ 1124  git ls-files
+ 1125  git reset ; git add * ; git ls-files
+ 1126  vi .gitignore
+ 1127  git reset ; git add * ; git ls-files
+ 1128  vi .gitignore
+ 1129  git reset ; git add * ; git ls-files
+ 1130  vi .gitignore
+ 1131  git reset ; git add * ; git ls-files
+ 1132  vi .gitignore
+ 1133  git reset ; git add * ; git ls-files
+ 1134  vi .gitignore
+ 1135  git reset ; git add * ; git ls-files
+ 1136  git rm -r --cached linux_practice2/.
+ 1137  vi .gitignore
+ 1138  git rm -r --cached linux_practice2/.
+ 1139  git reset ; git add * ; git ls-files
+ 1140  git diff
+ 1141  git rm --cached git diff HEAD
+ 1142  git diff --cached
+ 1143  git diff show
+ 1144  git status
+ 1145  git status --ignored
+ 1146  git ls-files --other --ignored --exclude-standard
+ 1147  git add .gitignore
+ 1148  git status
+ 1149  git status --ignored
+ 1150* 
+ 1151  vi .gitignore
+ 1152  git rm --cached 'gizumo[20-29].md'
+ 1153  git rm --cached 'trash/gizumo[20-29].md'
+ 1154  vi .gitignore
+ 1155  git rm --cached 'trash/gizumo[20-29]{2}.md'
+ 1156  git rm --cached trash/gizumo[20-29]{2}.md
+ 1157  vi .gitignore
+ 1158  git rm --cached trash/gizumo2[0-9].md
+ 1159  git status
+ 1160  histry300
 
